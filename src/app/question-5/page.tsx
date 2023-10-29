@@ -1,6 +1,16 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import Link from "next/link";
 
+const checklist = [
+  "Local runtime version matches the deployed version.",
+  "Dependencies are pushed with the deployment.",
+  "Environment variables are properly configured.",
+  "Code builds locally.",
+  "The deployed code matches the local code.",
+  "If is an Edge deployment, is not a known limitation.",
+  "The error is not a known issue for the framework.",
+];
+
 export default function Page() {
   return (
     <>
@@ -64,13 +74,12 @@ export default function Page() {
       </p>
 
       <p> In summary this would be the checklist: </p>
-      <Checkbox> Local runtime version matches the deployed version. </Checkbox>
-      <Checkbox> Dependencies are pushed with the deployment. </Checkbox>
-      <Checkbox> Environment variables are properly configured. </Checkbox>
-      <Checkbox> Code builds locally </Checkbox>
-      <Checkbox> The deployed code matches the local code </Checkbox>
-      <Checkbox> If is an Edge deployment, is not a known limitation </Checkbox>
-      <Checkbox> The error is not a known issue for the framework </Checkbox>
+      {checklist.map((c) => (
+        <div className="flex items-center gap-2">
+          <Checkbox id={c} />
+          <label htmlFor={c}>{c}</label>
+        </div>
+      ))}
     </>
   );
 }
