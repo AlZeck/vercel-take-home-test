@@ -17,9 +17,9 @@ export default function Page() {
       <Link href="/"> {"<"} Go back </Link>
       <h3 className="mb-10">
         Imagine a customer writes in requesting help with a build issue on a
-        framework or technology that you've not seen before. How would you go
-        about troubleshooting this and what questions would you ask the customer
-        to understand the situation better?
+        framework or technology that you&apos;ve not seen before. How would you
+        go about troubleshooting this and what questions would you ask the
+        customer to understand the situation better?
       </h3>
 
       <p>
@@ -43,8 +43,8 @@ export default function Page() {
 
       <p>
         I would then proceed to ask them to share the error logs, providing that
-        I don't have them already, and ask them to double check that the code
-        can be build in their development machine, and that all the latest
+        I don&apos;t have them already, and ask them to double check that the
+        code can be build in their development machine, and that all the latest
         changes have been pushed to their Git platform of choice (e.g. Github,
         Gitlab) if their Vercel project is sync to it or via the Vercel CLI.
       </p>
@@ -60,11 +60,11 @@ export default function Page() {
 
       <p>
         Another place to look for common issues, is to check that the
-        Dependencies's version have been properly pushed for example that the{" "}
-        <code>go.mod</code>(Go), <code>requirements.txt</code>(python),
+        Dependencies&apos;s version have been properly pushed for example that
+        the <code>go.mod</code>(Go), <code>requirements.txt</code>(python),
         <code>Gemfile</code>(Ruby) or the <code>package.json</code> (node.js)
-        and it's respective lockfile in the case of node are all available to
-        their Vercel deployment.
+        and it&apos;s respective lockfile in the case of node are all available
+        to their Vercel deployment.
       </p>
 
       <p>
@@ -75,7 +75,7 @@ export default function Page() {
 
       <p> In summary this would be the checklist: </p>
       {checklist.map((c) => (
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2" key={c}>
           <Checkbox id={c} />
           <label htmlFor={c}>{c}</label>
         </div>

@@ -34,14 +34,14 @@ export default function Page() {
         </a>{" "}
         or if you want something more dynamic you could use{" "}
         <a href="https://nextjs.org/docs/app/building-your-application/routing/middleware">
-          Next.js' middleware
+          Next.js&apos; middleware
         </a>
         .
       </p>
       <p>
         You could also take advantage of{" "}
         <a href="https://vercel.com/docs/functions/edge-middleware/quickstart">
-          Vercel's Edge Middleware
+          Vercel&apos;s Edge Middleware
         </a>
         this has the benefit of redirecting your visitors in less time, as the
         edge middleware is deployed closer to your customers thanks to our{" "}

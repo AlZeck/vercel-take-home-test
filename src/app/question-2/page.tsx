@@ -25,7 +25,7 @@ export default function Page() {
         could have load balancer, and automatic restart in case a pod/app crashed.
       </p>
       <p>
-        After that we didn't had any more outages.
+        After that we didn&apos;t had any more outages.
       </p>
 
     </>

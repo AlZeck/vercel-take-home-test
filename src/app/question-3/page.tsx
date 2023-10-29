@@ -31,7 +31,7 @@ export default function Page() {
         backend code or deploy it on Vercel.
       </p>
       <p>
-        This separation between backend and frontend means that you can't
+        This separation between backend and frontend means that you can&apos;t
         optimize your application to only render on the client what needs to be
         interactive, and render in the server everything else, as well as
         requiring you to build your own API to interact with a database for

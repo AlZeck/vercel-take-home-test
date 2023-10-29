@@ -11,9 +11,9 @@ export default function Page() {
       <p>
         I would like to learn how to contribute and start contributing more
         towards open source projects, as this is a good way to expand my
-        knowledge of projects I use in a daily basis, there's only so much you
-        can learn from the docs, and I would love to bring my contributions to
-        projects like React.js, Next.js, or Solid.js.
+        knowledge of projects I use in a daily basis, there&apos;s only so much
+        you can learn from the docs, and I would love to bring my contributions
+        to projects like React.js, Next.js, or Solid.js.
       </p>
       <p>
         I would also like to build more projects in other frameworks, try

@@ -34,7 +34,7 @@ Please write a follow-up reply to the customer.`}</h3>
       </p>
       <p>
         If we can solve it together means that any future similar deployments
-        won't have this issue and if it happens again you already know where to
+        won&apos;t have this issue and if it happens again you already know where to
         look and solve it sooner.
       </p>
       <p>I hope this clears up your concerns,</p>
