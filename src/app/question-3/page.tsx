@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <>
       <Link href="/"> {"<"} Go back </Link>
-      <h3>
+      <h3 className="mb-10">
         How would you compare Next.js with another frontend framework? Feel free
         to compare with a framework of your choice.
       </h3>
